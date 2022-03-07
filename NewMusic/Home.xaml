@@ -1,0 +1,20 @@
+﻿<Window x:Class="NewMusic.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewMusic"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="359*"/>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="Black" Background="Black" BorderThickness="1"/>
+        <TextBlock Text="Home" Foreground="White" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{x:Null}"   ></TextBlock>
+        <Button Content="Shop" Foreground="White" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Left" Background="{x:Null}" x:Name="shop" Click="shop_Click" Margin="267,0,0,0" ></Button>
+        <Button Content="Info" Foreground="White" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Left" Background="{x:Null}" x:Name="info" Click="info_Click" Margin="466,0,0,0" ></Button>
+        <TextBlock Text="NewMusic" Foreground="White" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"></TextBlock>
+    </Grid>
+</Window>
